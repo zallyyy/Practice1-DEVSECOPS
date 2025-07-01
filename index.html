@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Which Cat Matches Your Mood Today?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="start-page">
+    <h1>Which Cat Matches Your Mood Today?</h1>
+    <p>Find out what kind of cat matches your vibe today</p>
+    <button onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <div class="container hidden" id="quiz">
+    <h1>Which Cat Matches Your Mood Today?</h1>
+    <div id="question-container"></div>
+    <button id="next-button" onclick="nextQuestion()">Next</button>
+  </div>
+
+  <div class="container hidden" id="result">
+    <h1>Your Cat Personality</h1>
+    <div id="result-text"></div>
+    <img id="result-image" class="cat-image" src="" alt="Your Cat">
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
